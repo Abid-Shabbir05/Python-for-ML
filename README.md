@@ -1,4 +1,4 @@
-![Banner](https://github.com/Abid-Shabbir05/Machine-Learning-Projects/blob/main/Asset/bnr.jpeg?raw=true)
+![Banner](https://raw.githubusercontent.com/Abid-Shabbir05/Machine-Learning-Projects/refs/heads/main/Asset/bnr2.webp?raw=true)
 
 <h1 align="center">Hi 👋, I'm Abid-Shabbir</h1>
 <h3 align="center">🚀 Unlocking AI Potential: A Deep Dive into Machine Learning</h3>
