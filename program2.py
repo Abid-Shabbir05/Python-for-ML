@@ -87,11 +87,11 @@ print(type(Mark),Mark)
 
 #practice 1
 num1 = int(input("Enter your First number"))
-print(f"number1" ,num1)
+print(f"number1: {num1} ")
 num2 = int(input("Enter your 2ns number"))
-print(f"number2" ,num2)
+print(f"number2 {num2}")
 sum = num1 + num2
-print(f"the sum of two numbers is: ", sum)
+print(f"the sum of two numbers is: {sum}")
 
 #practice 2
 len = float(input("Enter the side of squre"))
@@ -100,4 +100,4 @@ print(f"area of squre is: ", len**2)
 num1 = float(input("Enter ur 1st num"))
 num2 = float(input("Enter ur 2st num"))
 avg = (num1 + num2)/2
-print(f"avarage of two number is :" ,{avg}) 
+print(f"avarage of two number is : {avg} " ) 
