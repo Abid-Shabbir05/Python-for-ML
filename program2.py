@@ -75,14 +75,14 @@ print(sum)
 #  It always returns data as a string unless explicitly converted.
 # to conver it other type need to use type casting like str(),float(),
 
-# name = input("waht your name")
-# print(f"Hellow {name}")
+name = input("waht your name")
+print(f"Hellow {name}")
 
-# num = int(input("Enter your number"))
-# print(type(num),num)
+num = int(input("Enter your number"))
+print(type(num),num)
 
-# Mark = float(input("Enter your number"))
-# print(type(Mark),Mark)
+Mark = float(input("Enter your number"))
+print(type(Mark),Mark)
 
 
 #practice 1
@@ -94,5 +94,10 @@ sum = num1 + num2
 print(f"the sum of two numbers is: ", sum)
 
 #practice 2
-len = int(input("Enter the side of squre"))
+len = float(input("Enter the side of squre"))
 print(f"area of squre is: ", len**2)
+
+num1 = float(input("Enter ur 1st num"))
+num2 = float(input("Enter ur 2st num"))
+avg = (num1 + num2)/2
+print(f"avarage of two number is :" ,{avg}) 
