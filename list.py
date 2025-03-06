@@ -35,8 +35,8 @@ mark = [90, 78, 97, 45, 67, 90, 60, 70, 80]
 print(mark[0:7:2])# it will print every 2nd items in the list
 print(mark[0:])
 print(mark[0:5])
-print(mark[0:])
-print(mark[::-1])
+print(mark[3:])
+print(mark[-5:-1])
 print(mark[::-1]) # it will print list itms reversly
 
 

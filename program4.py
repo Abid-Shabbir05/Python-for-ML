@@ -74,12 +74,35 @@ if(num % 2 == 0):
 else:
     print(f"{num} is odd number ")
 
-n1, n2, n3 = 20, 30, 40
-if(n1 > n2 and n1 > n3):
-    print(f"{n1} is greatest number")
-if(n2 > n1 and n2 > n3):
-    print(f"{n2} is greatest number")
-elif(n3 > n1 and n3 > n2):
-    print(f"{n3} is greatest number")
+# n1, n2, n3 = 20, 30, 40
+# if(n1 > n2 and n1 > n3):
+#     print(f"{n1} is greatest number")
+# if(n2 > n1 and n2 > n3):
+#     print(f"{n2} is greatest number")
+# elif(n3 > n1 and n3 > n2):
+#     print(f"{n3} is greatest number")
+# else:
+#     print("these numbers are equal")
+
+
+# pratice find the max -number from the three
+n1 = int(input("Enter 1st number "))
+n2 = int(input("Enter 2nd number "))
+n3 = int(input("Enter 3rd number "))
+
+if n1 == n2 == n3:
+    print(f"All three numbers is equal")
+elif(n1 == n2 and n1 > n3):
+    print(f"{n1} and {n2} is the greater number ")
+elif(n1 == n3 and n1 > n2):
+    print(f"{n1} and {n3} is the greater")
+elif(n2 == n3 and n2 > n1):
+    print(f"{n2} and {n3} is the greater number")
+elif(n1 >= n2 and n1 >= n3):
+    print(f"{n1} is the greater number")
+elif(n2 >= n1 and n2 >= n3):
+    print(f"{n2} is the greater number")
 else:
-    print("these numbers are equal")
+    print(f"{n3} is the greater number")
+
+
