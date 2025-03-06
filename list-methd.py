@@ -65,5 +65,28 @@ print(new_list)
 mark = [90, 86, 78, 99, 78, 90, 80, 78]
 mark.clear()
 print(mark)
+ 
 
+# Practice 
+# write a program to ask user to enter 3 favorite movie and store them in a list
+print("Enter your three favorite movie")
+mov1 = input("Enter 1st movie: ")
+mov2 = input("Enter 2nd movie: ")
+mov3 = input("Enter 3rd movie: ")
 
+fav_mov = []
+fav_mov.extend([mov1,mov2,mov3])
+print(f"My three favorite movies are : {fav_mov}")
+print(fav_mov[0])
+# fav_mov.append(mov2)
+# fav_mov.append(mov3)
+
+# Practice 2
+# WAP to check if a list contain palindrome of element
+# Check if a list is a palindrome
+list5 = [1, 2, 3, 2, 1]
+
+if list5 == list5[::-1]:  # Compare with its reverse
+    print("This is a palindrome.")
+else: 
+    print("This is not a palindrome.")

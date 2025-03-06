@@ -38,6 +38,3 @@ print(mark[0:5])
 print(mark[3:])
 print(mark[-5:-1])
 print(mark[::-1]) # it will print list itms reversly
-
-
-
