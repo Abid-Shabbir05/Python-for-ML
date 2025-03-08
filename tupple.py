@@ -23,7 +23,7 @@ tup2 = (5,)  # Correct
 tup3 = (5)   # Incorrect (interpreted as an integer)
 # Creating a tuple without parentheses (tuple packing)
 tup4 = 1, 2, 3    # it also called packing tuple  / because python consider the fundamental chratarestic of 
-# tuple is comma as well list defined by [] 
+# tuple edfined by comma as well list defined by [] 
 print(type(tup4)) # <class 'tuple'>
 print(tup4)
 
