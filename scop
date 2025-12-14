@@ -1,0 +1,15 @@
+def add(a, b):
+    """
+    Add two numbers and return the result.
+
+    Parameters:
+        a (int or float): The first number.
+        b (int or float): The second number.
+
+    Returns:
+        int or float: Sum of a and b.
+    """
+    return a + b
+
+print(add(3, 5))
+print(add.__doc__)  # Access docstring
