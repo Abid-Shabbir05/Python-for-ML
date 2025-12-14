@@ -1,0 +1,11 @@
+==========What is pipenv? ===============
+
+pipenv is a tool that manages both virtual environments and packages at the same time.
+It was created to make Python project setup easier and cleaner.
+Instead of using venv + pip separately, you just use pipenv.
+What does pipenv do?
+Creates a virtual environment automatically (like venv/virtualenv).
+Installs packages using pip under the hood.
+Keeps track of dependencies in two files:
+Pipfile → lists which packages your project needs.
+Pipfile.lock → locks exact versions (for reproducibility).

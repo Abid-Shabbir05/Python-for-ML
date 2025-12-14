@@ -1,0 +1,34 @@
+python enviroment is basically an isolated or seperate workplace that contain 
+.. A specific interpreter version
+..it own installed pakages
+..is own setting
+This isolation prevents conflicts between different projects. For example:
+Project A may need numpy==1.21
+Project B may need numpy==1.26
+
+or
+
+Think of a Python environment like a separate box (workspace) where your Python projects live.
+Inside that box, you can keep:
+A specific Python version (e.g., Python 3.9, Python 3.10).
+All the libraries (like numpy, pandas, tensorflow) that project needs.
+Each box (environment) is isolated, meaning:
+The libraries in one project won’t affect another project.
+Different projects can use different versions of Python or libraries without conflict.
+
+why use it =======?
+Because without environments, everything gets installed globally on your computer, and problems happen:
+Project A may need numpy==1.21 but Project B needs numpy==1.25.
+If installed globally, they’ll fight each other and break things.
+Environments solve this by keeping separate boxes for each project.
+
+
+When do we use it?
+When starting a new project → create a new environment.
+When you want to test code with different Python versions.
+When working on Machine Learning or big projects → because they require many different libraries, and versions matter a lot.
+
+Globally means:
+When you install Python packages without an environment, they go into the main Python installation of your system.
+This is called the global environment.
+It’s like putting everything into one big toolbox that all projects must share.

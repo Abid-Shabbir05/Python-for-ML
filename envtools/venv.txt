@@ -1,0 +1,34 @@
+ no 1 # ======== commands to create  a virtual enviroment
+
+  python3 -m venv myvenv
+ ---->
+      -----> 
+            python3 ---> this tell your system to use python3
+            (On Ubuntu, python might point to Python 2, so we use python3.)
+
+            -m --> means run a module run as a script
+            venv ---> venv is the module that creat virtual enviroment
+            myvenv --> this the name of the enviroment 
+
+  source myenv/bin/activate
+
+  ----->
+         python3 -m venv myenv → creates a virtual environment named myenv (a folder).
+
+        Inside, you’ll see a bin/ folder.
+
+        That bin/ folder contains scripts like python, pip, and activate.
+
+        source myenv/bin/activate → runs the activate script inside bin/.
+
+        source tells the shell: “run this script in the current terminal”.
+
+        The script updates your terminal so that:
+        The script updates your terminal so that:
+
+        Your prompt shows (myenv) → meaning you’re inside the environment.
+
+        The system uses myenv/bin/python and myenv/bin/pip instead of global ones.
+
+activate script means
+                    Python automatically generates a small script inside myenv/bin/ 

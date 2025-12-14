@@ -1,0 +1,25 @@
+What is virtualenv?
+
+virtualenv is a Python tool (a package) that creates isolated environments for Python projects.
+
+It was the older way to make environments before Python added the built-in venv module.
+
+So:
+
+venv → comes built into Python 3.3+ (no need to install).
+
+virtualenv → a separate package (you install it with pip install virtualenv), but it works on both Python 2 and Python 3.
+Why use virtualenv?
+
+Before Python 3.3, there was no built-in venv, so developers used virtualenv.
+
+Even today, some people still prefer it because:
+
+It has more features than venv (like faster environment creation, better cross-version support).
+
+It can create environments for both Python 2 and Python 3.
+
+how it install=====?
+pip install virtualenv
+virtualenv myenv
+source/myenv/bin/activate

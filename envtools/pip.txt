@@ -1,0 +1,13 @@
+======================================  PiP  ==============
+pip stands for “Pip Installs Packages” (some also say Pip Installs Python).
+It is the default package manager for Python.
+With pip, you can download and install Python libraries from the Python Package Index (PyPI) into your environment.
+Is pip built into Python 3?
+Yes ✅ — since Python 3.4, pip comes bundled with Python by default.
+That means when you install Python 3, you usually get pip automatically.
+If it’s missing, you can install it manually (with get-pip.py script or your package manager like apt).
+🔹 What does pip do?
+pip is not part of the Python Standard Library (like math, os, sys).
+Instead, it is a separate tool/module that ships with Python, so it’s available right away.
+Its job is to install and manage external packages (from PyPI – Python Package Index
+), which are not included in standard Python.

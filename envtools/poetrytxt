@@ -1,0 +1,77 @@
+
+===========================  Poetry =============================================
+Poetry is a tool for managing Python projects.
+It handles everything in one place:
+
+Virtual environments (like venv)
+
+Dependencies (like pip install)
+
+Packaging & distribution (like setup.py / requirements.txt)
+Without Poetry:
+
+You create a venv manually.
+
+You install dependencies with pip install.
+
+You manually keep a requirements.txt.
+
+You manually build packages with setup.py.
+
+With Poetry:
+
+Poetry creates & manages the environment for you.
+
+You add dependencies with poetry add ....
+
+It automatically tracks them in pyproject.toml.
+
+It builds a distribution (.whl, .tar.gz) easily.
+
+
+how to use it======================?
+
+# Install poetry (once)
+pip install poetry
+
+# Create new project
+poetry new myproject
+
+# Move into project folder
+cd myproject
+
+# Add a dependency
+poetry add requests
+
+How to activate the environment in Poetry 2.x==================== ?
+🔹 How to activate the environment in Poetry 2.x
+
+Check which virtual environment Poetry created
+
+poetry env list
+
+
+You’ll see something like:
+
+myproject-py3.10 (Activated)
+
+
+Activate it
+
+poetry env activate <path-to-venv>
+
+
+Or simply (recommended):
+
+poetry env info
+
+
+It shows the path, e.g.:
+
+Path: /home/abidshabbir/.cache/pypoetry/virtualenvs/myproject-py3.10
+
+
+Then activate it manually:
+
+source /home/abidshabbir/.cache/pypoetry/virtualenvs/myproject-py3.10/bin/activate
+

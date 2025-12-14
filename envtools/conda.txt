@@ -1,0 +1,10 @@
+
+======================What is conda? ===================
+
+conda is both:
+A package manager (like pip), and
+An environment manager (like venv/virtualenv).
+So it’s an all-in-one tool that can create environments and install packages into them.
+🔹 Why is conda special?
+It’s not limited to Python → it can install Python packages and non-Python packages (like C libraries, R, CUDA for GPUs, compilers, etc).
+This makes it super popular in Data Science and Machine Learning where you often need system-level libraries (e.g., TensorFlow + CUDA drivers).

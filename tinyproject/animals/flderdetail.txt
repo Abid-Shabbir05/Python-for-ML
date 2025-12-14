@@ -1,0 +1,36 @@
+__init__.py in Python — Summary
+🔹 What is it?
+
+A special Python file named __init__.py.
+
+Lives inside a folder.
+
+Makes Python treat that folder as a package.
+
+Can be empty or contain code.
+
+🔹 When do we use it?
+
+When you want to organize code into a package (instead of keeping everything in one big .py file).
+
+Always create it when building your own package.
+
+Optional in modern Python (≥3.3), but still used for clarity and control.
+
+🔹 What happens after creating it?
+
+The folder becomes a package → you can now import it.
+
+If empty → it just marks the folder as a package.
+
+If not empty → any code inside runs when the package is imported.
+
+You can import submodules/functions automatically.
+
+Define constants or metadata.
+
+Run initialization/setup code.
+
+🔹 Typical code inside __init__.py
+
+Expose functions/classes for easy imports
